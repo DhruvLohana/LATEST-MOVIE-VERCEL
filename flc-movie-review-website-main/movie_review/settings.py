@@ -29,7 +29,7 @@ SECRET_KEY = "^go6cpl&vdp9!56jlkys++(f%cerx%7f%3p0mh%k*e8_w*nz3z"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["192.168.0.1", "104.196.232.237", "127.0.0.1", ".vercel.app"]
+ALLOWED_HOSTS = [".vercel.app",'.now.sh','127.0.0.1','localhost']
 CSRF_TRUSTED_ORIGINS = ['https://bit-movies-flc.up.railway.app']
 
 
